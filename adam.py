@@ -1,5 +1,6 @@
 """Just for practicing Sphinx"""
 
+
 class adam:
     """연습용 클래스"""
     def __init__(self):
