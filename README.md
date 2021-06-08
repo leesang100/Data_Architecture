@@ -19,7 +19,8 @@
 
 * python >= 3.6.9
 * flask >= 1.1.1, <= 1.1.2
-
+* MongoDB >= 3.6.3
+* Sphinx >=1.6.7
 #### How to install
 
 ```sh
