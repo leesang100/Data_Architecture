@@ -23,12 +23,23 @@
 * Sphinx >=1.6.7
 #### How to install
 
+*Clone & Install
+
 ```sh
-git clone ...........
-cd Data_Architecture
-pip3 install -r requirements.txt
+~$ git clone ...........
+~$ cd Data_Architecture
+~/Data_Architectur$ pip3 install -r requirements.txt
 ```
 
+* Append two lines below to `~/.bashrc` file
+
+```sh
+~$ cat >> ~/. bashrc
+export DA_DESIGN_SERVER=/home/userid/Data_Architecture
+export PYTHONPATH=$PYTHON:$DA_DESIGN_SERVER
+Ctrl+d
+
+~$ source ~/.bashrc
 ---
 
 ### How to use
