@@ -23,7 +23,7 @@
 * Sphinx >=1.6.7
 #### How to install
 
-*Clone & Install
+* Clone & Install
 
 ```sh
 ~$ git clone ...........
@@ -40,7 +40,7 @@ export PYTHONPATH=$PYTHON:$DA_DESIGN_SERVER
 Ctrl+d
 
 ~$ source ~/.bashrc
----
+```
 
 ### How to use
 
