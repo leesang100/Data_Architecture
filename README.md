@@ -44,7 +44,8 @@ Ctrl+d
 
 ### How to use
 
-TODO
+http://3.36.125.39:5000/
+
 
 ---
 
