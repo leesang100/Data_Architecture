@@ -1,7 +1,7 @@
-adam module
+test module
 ===========
 
-.. automodule:: adam
+.. automodule:: test
     :members:
     :undoc-members:
     :show-inheritance:

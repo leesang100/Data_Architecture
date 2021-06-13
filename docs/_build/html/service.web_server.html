@@ -5,7 +5,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="ko">
   <head>
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-    <title>adam module &#8212; Data_Architecture  documentation</title>
+    <title>service.web_server module &#8212; Data_Architecture  documentation</title>
     <link rel="stylesheet" href="_static/alabaster.css" type="text/css" />
     <link rel="stylesheet" href="_static/pygments.css" type="text/css" />
     <script type="text/javascript">
@@ -24,7 +24,8 @@
     <script type="text/javascript" src="_static/translations.js"></script>
     <link rel="index" title="색인" href="genindex.html" />
     <link rel="search" title="검색" href="search.html" />
-    <link rel="prev" title="Welcome to Data_Architecture&#39;s documentation!" href="index.html" />
+    <link rel="next" title="test module" href="test.html" />
+    <link rel="prev" title="service package" href="service.html" />
    
   <link rel="stylesheet" href="_static/custom.css" type="text/css" />
   
@@ -39,38 +40,14 @@
         <div class="bodywrapper">
           <div class="body" role="main">
             
-  <div class="section" id="module-adam">
-<span id="adam-module"></span><h1>adam module<a class="headerlink" href="#module-adam" title="제목 주소">¶</a></h1>
-<p>Just for practicing Sphinx</p>
-<dl class="class">
-<dt id="adam.adam">
-<em class="property">class </em><code class="descclassname">adam.</code><code class="descname">adam</code><a class="reference internal" href="_modules/adam.html#adam"><span class="viewcode-link">[소스]</span></a><a class="headerlink" href="#adam.adam" title="정의 주소">¶</a></dt>
-<dd><p>Bases: <code class="xref py py-class docutils literal"><span class="pre">object</span></code></p>
-<p>연습용 클래스</p>
-<dl class="method">
-<dt id="adam.adam.get_biggest">
-<code class="descname">get_biggest</code><span class="sig-paren">(</span><em>x</em><span class="sig-paren">)</span><a class="reference internal" href="_modules/adam.html#adam.get_biggest"><span class="viewcode-link">[소스]</span></a><a class="headerlink" href="#adam.adam.get_biggest" title="정의 주소">¶</a></dt>
-<dd><p>Return the biggest value</p>
-<table class="docutils field-list" frame="void" rules="none">
-<col class="field-name" />
-<col class="field-body" />
-<tbody valign="top">
-<tr class="field-odd field"><th class="field-name">매개 변수:</th><td class="field-body"><strong>x</strong> (<em>list</em>) -- list of int</td>
-</tr>
-<tr class="field-even field"><th class="field-name">반환:</th><td class="field-body">The biggest int value</td>
-</tr>
-<tr class="field-odd field"><th class="field-name">반환 형식:</th><td class="field-body">int</td>
-</tr>
-</tbody>
-</table>
-</dd></dl>
-
-<dl class="method">
-<dt id="adam.adam.sum_two">
-<code class="descname">sum_two</code><span class="sig-paren">(</span><em>a</em>, <em>b</em><span class="sig-paren">)</span><a class="reference internal" href="_modules/adam.html#adam.sum_two"><span class="viewcode-link">[소스]</span></a><a class="headerlink" href="#adam.adam.sum_two" title="정의 주소">¶</a></dt>
-<dd><p>Compute sum of two values, and return int</p>
-</dd></dl>
-
+  <div class="section" id="module-service.web_server">
+<span id="service-web-server-module"></span><h1>service.web_server module<a class="headerlink" href="#module-service.web_server" title="제목 주소">¶</a></h1>
+<dl class="function">
+<dt id="service.web_server.hospital">
+<code class="descclassname">service.web_server.</code><code class="descname">hospital</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="reference internal" href="_modules/service/web_server.html#hospital"><span class="viewcode-link">[소스]</span></a><a class="headerlink" href="#service.web_server.hospital" title="정의 주소">¶</a></dt>
+<dd><p>Flask를 이용한 서버구축. mongoDB에서 데이터를 불러와 화면서 출력하게 한다.
+:return: data in mongoDB
+:rtype: list</p>
 </dd></dl>
 
 </div>
@@ -84,7 +61,10 @@
 <h3>Related Topics</h3>
 <ul>
   <li><a href="index.html">Documentation overview</a><ul>
-      <li>Previous: <a href="index.html" title="이전 장">Welcome to Data_Architecture's documentation!</a></li>
+  <li><a href="service.html">service package</a><ul>
+      <li>Previous: <a href="service.html" title="이전 장">service package</a></li>
+      <li>Next: <a href="test.html" title="다음 장">test module</a></li>
+  </ul></li>
   </ul></li>
 </ul>
 </div>
@@ -110,7 +90,7 @@
       &amp; <a href="https://github.com/bitprophet/alabaster">Alabaster 0.7.8</a>
       
       |
-      <a href="_sources/adam.rst.txt"
+      <a href="_sources/service.web_server.rst.txt"
           rel="nofollow">Page source</a>
     </div>
 

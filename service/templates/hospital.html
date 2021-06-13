@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title></title>
+</head>
+<body>
+<h1>질병과 증상</h1>
+<div>
+
+{% for i in data %}
+<p>질병명: {{[i.name]}}</p>
+<p>자주 나타나는  증상: {{i.Symptom[0]['main_symptom']}}</p>
+<p>드믈게 나타나는 증상: {{i.Symptom[0]['sub_symptom']}}</p>
+<p>---------------</p>
+{% endfor %}
+</div>
+</body>
+</html>
+
